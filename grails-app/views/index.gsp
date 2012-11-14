@@ -103,20 +103,14 @@
 			</ul>
 		</div>
 		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
+			<h1>URL Shortener</h1>
+			<p>Esta es una prueba de concepto para recortar URLs</p>
 
-			<div id="controller-list" role="navigation">
-				<h2>Available Controllers:</h2>
-				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
-				</ul>
-			</div>
-		</div>
+            <p>Para generar un link corto ingresar dar clic <g:link controller="shortlink" action="create">aquí</g:link></p>
+
+            <p>Para probar el link corto, ingresar a la URL http://localhost:8080/link. ejemplo: http://localhost:8080/O69X1MCUN</p>
+
+
+        </div>
 	</body>
 </html>

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa44aadf-021a-43e6-b39b-151e287b2213" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tutorial-grails-slink-grailsPlugins.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/controllers/slink/AdminController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/slink/ShortlinkController.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/unit/slink/AdminControllerTests.groovy" afterPath="$PROJECT_DIR$/test/unit/slink/ShortlinkControllerTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/slink/Shortlink.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/slink/Shortlink.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
     </list>
     <ignored path="tutorial-grails-slink.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,10 +63,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UrlMappings.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UrlMappings.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="51" selection-end="51" vertical-scroll-proportion="0.09049774">
+            <state line="4" column="8" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/shortlink/create.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/shortlink/_form.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="32" selection-start="262" selection-end="271" vertical-scroll-proportion="-2.5531914">
               <folding />
             </state>
           </provider>
@@ -81,7 +96,16 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="31" selection-start="213" selection-end="213" vertical-scroll-proportion="-3.6666667">
+            <state line="11" column="32" selection-start="220" selection-end="220" vertical-scroll-proportion="-3.6666667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="81" selection-start="2863" selection-end="2863" vertical-scroll-proportion="0.8013245">
               <folding />
             </state>
           </provider>
@@ -119,11 +143,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/shortlink/_form.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/slink/ShortlinkController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/slink/ShortlinkService.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/slink/Shortlink.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/shortlink/_form.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/slink/Shortlink.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
       </list>
     </option>
   </component>
@@ -392,20 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/shortlink/_form.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="273" selection-end="273" vertical-scroll-proportion="-2.5531914">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/shortlink/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.024875622">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/slink/ShortlinkController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.9565217">
@@ -420,19 +431,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/shortlink/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/shortlink/_form.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="262" selection-end="271" vertical-scroll-proportion="-2.5531914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/slink/Shortlink.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="213" selection-end="213" vertical-scroll-proportion="-3.6666667">
+        <state line="11" column="32" selection-start="220" selection-end="220" vertical-scroll-proportion="-3.6666667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="51" selection-end="51" vertical-scroll-proportion="0.09049774">
+        <state line="110" column="81" selection-start="2863" selection-end="2863" vertical-scroll-proportion="0.8013245">
           <folding />
         </state>
       </provider>

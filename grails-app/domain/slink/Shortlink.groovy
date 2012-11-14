@@ -6,11 +6,11 @@ class Shortlink {
     transient  shortlinkService
 
 	String shortLink
-	String url
+	String targetUrl
 	
     static constraints = {
-		shortLink unique:true, nullable: true, size:1..ConfigurationHolder.getConfig().getProperty('maxChar').toInteger(), matches:"[a-zA-Z0-9]+"
-        url url:true
+		shortLink unique: true, nullable: true, size:1..ConfigurationHolder.getConfig().getProperty('maxChar').toInteger(), matches:"[a-zA-Z0-9]+"
+		targetUrl url:true
     }
 
     String toString() {
