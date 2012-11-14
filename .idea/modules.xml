@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Tutorial-grails-slink.iml" filepath="$PROJECT_DIR$/Tutorial-grails-slink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorial-grails-slink-grailsPlugins.iml" filepath="$PROJECT_DIR$/Tutorial-grails-slink-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>
+
