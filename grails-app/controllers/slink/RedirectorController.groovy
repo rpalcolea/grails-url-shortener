@@ -2,7 +2,7 @@ package slink
 
 class RedirectorController {
 
-    def index(String shortLinkName) {
-		redirect url:Shortlink.findByShortLink(shortLinkName).targetUrl	
+    def index(String shortLink) {
+		redirect url:Shortlink.findByShortLink(shortLink).targetUrl
 	}
 }

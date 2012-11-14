@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa44aadf-021a-43e6-b39b-151e287b2213" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/slink/Shortlink.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/slink/Shortlink.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/slink/RedirectorController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/slink/RedirectorController.groovy" />
     </list>
     <ignored path="tutorial-grails-slink.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +64,7 @@
       <file leaf-file-name="UrlMappings.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+            <state line="7" column="20" selection-start="118" selection-end="127" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="81" selection-start="2863" selection-end="2863" vertical-scroll-proportion="0.8013245">
+            <state line="90" column="33" selection-start="1922" selection-end="1922" vertical-scroll-proportion="-40.791668">
               <folding />
             </state>
           </provider>
@@ -120,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedirectorController.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RedirectorController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/slink/RedirectorController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="40" selection-start="82" selection-end="82" vertical-scroll-proportion="-2.6086957">
+            <state line="3" column="37" selection-start="44" selection-end="44" vertical-scroll-proportion="0.07281554">
               <folding />
             </state>
           </provider>
@@ -149,6 +147,7 @@
         <option value="$PROJECT_DIR$/grails-app/views/shortlink/_form.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/slink/Shortlink.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/slink/RedirectorController.groovy" />
       </list>
     </option>
   </component>
@@ -410,13 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/slink/RedirectorController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="82" selection-end="82" vertical-scroll-proportion="-2.6086957">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/slink/ShortlinkController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.9565217">
@@ -427,13 +419,6 @@
     <entry file="file://$PROJECT_DIR$/grails-app/services/slink/ShortlinkService.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="51" selection-start="634" selection-end="634" vertical-scroll-proportion="0.60842437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -464,7 +449,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="81" selection-start="2863" selection-end="2863" vertical-scroll-proportion="0.8013245">
+        <state line="90" column="33" selection-start="1922" selection-end="1922" vertical-scroll-proportion="-40.791668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="118" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/slink/RedirectorController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="37" selection-start="44" selection-end="44" vertical-scroll-proportion="0.07281554">
           <folding />
         </state>
       </provider>
